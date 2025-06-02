@@ -1,6 +1,9 @@
-print("número\tquadrado\tcubo")
+populacaoMundial = float(input("digite o numero da população mundial "))
+crescimentoPopulacional = float(input("digite a taxa (%) ")) / 100
+ano = int(input("Digite o número de anospara estimar o crescimento: "))
+populacaoFutura = populacaoMundial * (1 + crescimentoPopulacional) * ano
 
-for numero in range(11):
-    quadrado = numero ** 2
-    cubo = numero ** 3
-    print(f"{numero}\t{quadrado}\t\t{cubo}")
+
+
+
+print("A população estimada após {ano} ano{s} será de:", {populacaoFutura})
