@@ -1,7 +1,13 @@
-precoCapaLivro = 24.95
-precoCapaLivroDesconto = precoCapaLivro - (precoCapaLivro * 0.40)
-custoFretePrimeiroExemplar = precoCapaLivroDesconto + 3.00
-custoFreteRestanteExemplares = precoCapaLivro + 0.75
-custoTotalAtacado = custoFretePrimeiroExemplar + (custoFreteRestanteExemplares * 59)
+numero=int(input("digite um numero de 5 digitos
 
-print("O preco total do atacado para 60 exemplares é de: ", custoTotalAtacado)
+digito1 = numero // 10000
+digito2 = (numero % 10000) // 1000
+digito3 = (numero % 1000) // 100
+digito4 = (numero % 100) // 10 
+digito5 = numero % 10
+
+print(digito1)
+print(digito2)
+print(digito3)
+print(digito4)
+print(digito5)
