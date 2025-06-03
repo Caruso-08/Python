@@ -1,7 +1,5 @@
-print("número\tquadrado\tcubo")
+print("Número Quadrado Cubo")
 
-for numero in range(11):
-    quadrado = numero ** 2
-    cubo = numero ** 3
-   
-    print(f"{numero}\t{quadrado}\t\t{cubo}")
+quadrado = numero ** 2
+cubo = numero ** 3
+print(f"{número:<7} {quadrado:<9} {cubo}")
