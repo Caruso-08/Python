@@ -10,5 +10,5 @@ print(d1)
 f1=n1*n2
 print(f1)
 
-m1=n1/N2
+m1=n1/n2
 print(m1)
