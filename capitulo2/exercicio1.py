@@ -1,20 +1,14 @@
-numero1 = int(input("Digite o primeiro número inteiro: "))
-numero2 = int(input("Digite o segundo número inteiro: "))
+n1=int(input("escreva um número "))
+n2=int(input("escreva um número "))
 
+s1=n1+n2
+print(s1)
 
-soma = numero1 + numero2
-produto = numero1 * numero2
-diferenca = numero1 - numero2
+d1=n1-n2
+print(d1)
 
+f1=n1*n2
+print(f1)
 
-if numero2 != 0:
-    quociente = numero1 / numero2
-else:
-    quociente = "Indefinido (divisão por zero)"
-
-
-print("Resultados:")
-print("Soma: {soma}")
-print("Produto: {produto}")
-print("Diferença: {diferenca}")
-print("Quociente: {quociente}")
+m1=n1/N2
+print(m1)
