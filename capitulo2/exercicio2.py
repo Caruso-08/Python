@@ -1,4 +1,4 @@
-numero=int(input("digite um numero de 5 digitos
+numero=int(input("digite um numero de 5 digitos"))
 
 digito1 = numero // 10000
 digito2 = (numero % 10000) // 1000
