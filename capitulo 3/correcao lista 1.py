@@ -14,7 +14,7 @@ numero = int(input("Digite o primeiro numero:"))
 numero2 = int(input("Digite o segundo numero:"))
 
 resultadoAdicao = adicao(numero, numero2)
-resultadoSubstracao = subtracao(numero, numero2)
+resultadoSubtracao = subtracao(numero, numero2)
 resultadoMultiplicacao = multiplicacao(numero, numero2)
 resultadoDivisao = divisao(numero, numero2)
 
