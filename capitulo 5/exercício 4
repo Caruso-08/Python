@@ -1,0 +1,8 @@
+def tabuadaNumero(numero, contador):
+    while contador <= 10:
+        print(f'{numero} x {contador} = {numero * contador}')
+        contador += 1
+
+valor = int(input("Digite um número inteiro: "))
+contador = 1
+tabuadaNumero(valor, contador)
