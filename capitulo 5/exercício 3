@@ -1,0 +1,23 @@
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao(a, b):
+    if b == 0:
+        return "Erro: divisão por zero!"
+    return a / b
+
+# Entrada
+x = int(input("Digite um número inteiro: "))
+y = int(input("Digite outro número inteiro: "))
+
+# Saída
+print(f"A soma é: {soma(x, y)}")
+print(f"A subtração é: {subtracao(x, y)}")
+print(f"A multiplicação é: {multiplicacao(x, y)}")
+print(f"A divisão é: {divisao(x, y)}")
