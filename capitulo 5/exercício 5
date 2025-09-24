@@ -1,0 +1,8 @@
+def calcular_media(a, b):
+    return (a + b) / 2
+
+primeira = float(input("Digite a primeira nota: "))
+segunda = float(input("Digite a segunda nota: "))
+
+resultado = calcular_media(primeira, segunda)
+print(f"A média entre {primeira} e {segunda} é {resultado}")
