@@ -1,0 +1,8 @@
+def area_triangulo(b, h):
+    return (b * h) / 2
+
+base = float(input("Digite a base do triângulo: "))
+altura = float(input("Digite a altura do triângulo: "))
+
+resultado = area_triangulo(base, altura)
+print(f"A área do triângulo é: {resultado}")
