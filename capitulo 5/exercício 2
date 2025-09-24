@@ -1,0 +1,16 @@
+def resultadoFinal(total, desconto=10):
+    "Recebe um total e subtrai o valor definido (padrão = 10)."
+    return total - desconto
+
+# Entrada de dados
+numeros = []
+for i in range(4):
+    valor = int(input(f'Digite o {i+1}º número inteiro: '))
+    numeros.append(valor)
+
+# Processamento
+soma_total = sum(numeros)
+resultado = resultadoFinal(soma_total)
+
+# Saída
+print(f"A soma dos valores menos 10 é: {resultado}")
